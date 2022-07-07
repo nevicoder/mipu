@@ -13,7 +13,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.wrapper}>
         <div className={styles.avatar}>
-          <img src="src/assets/avatar.jpg" />
+          <img src="./src/assets/avatar.jpg" />
         </div>
         <div className={classnames(styles.title, styles.nonSelect)}>
           <h1>Hi, welcome to my portfolio</h1>
