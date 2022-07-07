@@ -5,8 +5,8 @@ import {} from "react";
 const Header = () => {
   const [quote, setQuote] = useState();
   useEffect(() => {
-    fetch("http://quotes.stormconsultancy.co.uk/random.json").then((res) =>
-      res.json().then((quote) => setQuote(quote))
+    fetch(" https://programming-quotes-api.herokuapp.com/Quotes/random").then(
+      (res) => res.json().then((quote) => setQuote(quote))
     );
   }, []);
   return (
@@ -19,7 +19,7 @@ const Header = () => {
           <h1>Hi, welcome to my portfolio</h1>
         </div>
         {quote && (
-          <p className={styles.quote}>{`"${quote.quote}" - ${quote.author}`}</p>
+          <p className={styles.quote}>{`"${quote.en}" - ${quote.author}`}</p>
         )}
       </div>
     </header>
