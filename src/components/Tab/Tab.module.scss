@@ -1,0 +1,10 @@
+.tab {
+  padding: 1.25rem 2.5rem;
+  background-color: var(--secondary-color);
+  font-size: 2rem;
+
+}
+.active {
+  background-color: var(--text-color);
+  color: var(--secondary-color);
+}

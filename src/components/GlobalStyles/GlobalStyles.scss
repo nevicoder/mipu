@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #2a3344;
+  --secondary-color: #1a202c;
+  --text-color: #9dc7e0;
+  --border-color: #516398;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100vh;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
