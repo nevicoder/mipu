@@ -30,14 +30,3 @@
     min-height: 150px;
   }
 }
-
-.Toastify__toast,
-.Toastify__toast-theme--light,
-.Toastify__toast--default {
-  background-color: var(--secondary-color) !important;
-  font-size: 2rem !important;
-  color: var(--text-color) !important;
-}
-.Toastify__toast-container {
-  width: 800px !important;
-}
