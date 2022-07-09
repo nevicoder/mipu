@@ -3,7 +3,7 @@ import Tab from "../Tab";
 import styles from "./Tabs.module.scss";
 
 function Tabs() {
-  const tabs = ["bio", "experiences", "projects"];
+  const tabs = ["bio", "experiences", "projects","contact"];
   const [type, setType] = useState("bio");
   const handleClick = (e) => {
     setType(e.target.innerText);
