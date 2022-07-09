@@ -14,9 +14,11 @@ import {
   faNodeJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
+const mipu = import.meta.env.MIPU;
 function Bio() {
   return (
     <>
+      {mipu}
       <ul className={styles.list}>
         <li>
           <div className={styles.item}>
@@ -58,8 +60,8 @@ function Bio() {
       <div className={styles.bio}>
         I'm a tech junkie who are willing to learn new things everyday. I love
         to work around with computers and do problems-solving. Looking forward
-        to work in a professional environment, so i can dedicate myself for the company
-        and be better me each day.
+        to work in a professional environment, so i can dedicate myself for the
+        company and be better me each day.
       </div>
     </>
   );

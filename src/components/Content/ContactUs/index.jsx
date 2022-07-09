@@ -13,11 +13,11 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        process.env.VITE_SERVICE_ID,
-        process.env.VITE_TEMPLATE_ID,
+        "mipu_gmail",
+        "template_6dgphip",
 
         form.current,
-        process.env.VITE_PUBLIC_KEY
+        "jUogCwmfcjHHcCHwu"
       )
       .then(
         (result) => {
