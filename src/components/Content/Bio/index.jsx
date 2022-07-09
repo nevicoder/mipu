@@ -59,7 +59,7 @@ function Bio() {
       </ul>
       <div className={styles.bio}>
         I'm a tech junkie who are willing to learn new things everyday. I love
-        to work around with computers and do problems-solving. Looking forward
+        to play around with computers and do problems-solving. Looking forward
         to work in a professional environment, so i can dedicate myself for the
         company and be better me each day.
       </div>
