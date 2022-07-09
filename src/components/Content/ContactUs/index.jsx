@@ -1,12 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
-import "./Toastify.css"
+import "./Toastify.css";
 import styles from "./ContactUs.module.scss";
 const ContactUs = () => {
-  const VITE_SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
-  const VITE_PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
-  const VITE_TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
   const form = useRef();
   const notify = () =>
     toast(`Cảm ơn anh/chị đã để lại thông tin. Em sẽ liên hệ lại trong thời gian sớm nhất
@@ -16,10 +13,11 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "mipu_gmail",
-        "template_6dgphip",
+        process.env.VITE_SERVICE_ID,
+        process.env.VITE_TEMPLATE_ID,
+
         form.current,
-        "jUogCwmfcjHHcCHwu"
+        process.env.VITE_PUBLIC_KEY
       )
       .then(
         (result) => {
