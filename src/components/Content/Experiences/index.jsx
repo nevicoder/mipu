@@ -10,8 +10,8 @@ function Experiences() {
     <ul className={styles.list}>
       <li>
         <div className={styles.item}>
-          <div className={styles.milestone}>2015-2021</div>
-          <p>Studying pharmacy at University</p>
+          <div className={styles.milestone}>2022-2023</div>
+          <p>Working on some personal projects</p>
         </div>
       </li>
       <li>
@@ -22,8 +22,8 @@ function Experiences() {
       </li>
       <li>
         <div className={styles.item}>
-          <div className={styles.milestone}>2022-2023</div>
-          <p>Working on some personal projects</p>
+          <div className={styles.milestone}>2015-2021</div>
+          <p>Studying pharmacy at University</p>
         </div>
       </li>
     </ul>
