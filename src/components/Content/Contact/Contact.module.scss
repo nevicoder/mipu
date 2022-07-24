@@ -67,3 +67,30 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .info {
+    visibility: visible;
+    position: unset;
+    transform: none;
+  }
+  .envelope {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    &::before {
+      display: none;
+      visibility: hidden;
+    }
+    .wrapper {
+      height: 100%;
+      &:hover div {
+        animation: none;
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }
+}

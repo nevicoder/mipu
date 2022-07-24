@@ -30,3 +30,10 @@
     min-height: 150px;
   }
 }
+@media screen and (max-width:400px){
+  .contactUs{
+    display: none;
+    visibility: hidden;
+    position: unset;
+  }
+}

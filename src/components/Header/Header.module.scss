@@ -63,3 +63,24 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none;
 }
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    width: 100vw;
+  }
+  .avatar{
+    width: 120px;
+  }
+  .title {
+    margin-top: 2rem;
+    h1 {
+    
+      font-size: 2rem;
+      padding: 0 0 ;
+    }
+  }
+
+  .quote{
+    padding: 0 1rem;
+  }
+}

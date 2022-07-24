@@ -1,3 +1,9 @@
 .tabs {
-    z-index: 2;
+  z-index: 2;
+}
+
+@media screen and (max-width: 400px) {
+  .tabs {
+    width: 100%;
+  }
 }
